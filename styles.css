@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Discet;
+    src: url("srd.otf");
+}
+body{
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Discet;
+    background-color: rgba(128, 154, 238, 0.886);
+}
+button {
+    margin: 20px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Discet;
+    padding: 12px 16px;
+    border-radius: 100px;
+    color: #ffffff;
+    background-color: #6363637c;
+  }
+button:hover{
+    background-color: #4c7efd;
+}
+
+.form-container{
+    color: rgb(104, 111, 209);
+    border: 10px solid rgba(255, 255, 255, 0.778);
+    text-align: center;
+    margin: auto;
+    background-color: #e8e8f57c;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-container label{
+    display: block;            
+    top: 50%;      
+    padding: 20px;                
+}
+.form-container select{
+    color: rgb(104, 111, 209);
+    font-size: 20px;
+    
+}
+.form-container input{
+    color: rgb(104, 111, 209);
+    font-size: 20px;
+    font-family: Discet;
+}
+.form-container textarea{
+
+    width: 300px;
+    resize: none;
+}
